@@ -1,0 +1,32 @@
+{"FireData" :[
+    {
+       "id":1,
+       "lat":37.5454,
+       "lng":-132.33,
+       "images":["../assets/images/smoke.png","../assets/images/smoke1.png"],
+       "title":"Fire was detected on T105"
+       
+    },
+    {
+        "id":2,
+       "lat":37.5454,
+       "lng":-132.33,
+       "images":[],
+       "title":"Smoke was detected on T106"
+       },
+       {
+        "id":3,
+       "lat":37.5454,
+       "lng":-132.33,
+       "images":[],
+       "title":"T106 has high risk to be on fire"
+       },
+       {
+        "id":4,
+       "lat":37.5454,
+       "lng":-132.33,
+       "images":[],
+       "title":"T106 has high risk to be on fire"
+       }
+    ]
+}
