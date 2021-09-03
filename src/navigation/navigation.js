@@ -8,6 +8,7 @@ import {Text,Image,View, Dimensions} from 'react-native'
 import Property from '../screens/property';
 import LiveStock from '../screens/livestock';
 import Drone from '../screens/drone';
+import AddPlace from '../screens/AddPlace';
 
 const Stack = createStackNavigator();
 
@@ -79,6 +80,7 @@ export const Navigation=()=>{
                         headerLeft: props =>
                          <Image source={require('../assets/images/arrowleft.png')} style={{height:15,width:15,tintColor:'white',marginLeft:7}}/> }}
                     />
+                        <Stack.Screen name="AddPlace" component={AddPlace}/>
             </Stack.Navigator>
         </NavigationContainer>
 

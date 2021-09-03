@@ -70,7 +70,7 @@ export default class TabComponent extends Component{
                     // this.setState({isProperty:false})
                     // this.setState({isDrone:false})
                     // this.setState({isLiveStock:true})
-                    this.props.navigation.navigate("LiveStock")
+                    this.props.navigation.navigate("AddPlace")
                 }}
                 >
                     {isLiveStock?
